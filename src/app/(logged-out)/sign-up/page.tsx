@@ -32,7 +32,7 @@ const formSchema = z.object({
 	password: z.string(),
 });
 
-export default function LoginPage() {
+export default function SignupPage() {
 	const router = useRouter();
 	const form = useForm<z.infer<typeof formSchema>>({
 		resolver: zodResolver(formSchema),
@@ -54,7 +54,7 @@ export default function LoginPage() {
 			</h1>
 
 			<CardHeader className="w-full max-w-sm">
-				<CardTitle>Login</CardTitle>
+				<CardTitle>Sign Up</CardTitle>
 				<CardDescription>
 					Enter your email and password to login
 				</CardDescription>
