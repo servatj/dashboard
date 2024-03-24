@@ -103,7 +103,7 @@ export default function LoginPage() {
 				</Form>
 			</CardContent>
 			<CardFooter className="justify-between">
-				<small>Don t have an account?</small>
+				<small>Do you have an account?</small>
 				<Button asChild variant="outline" size="sm">
 					<Link href="/sign-up">Sign Up</Link>
 				</Button>
